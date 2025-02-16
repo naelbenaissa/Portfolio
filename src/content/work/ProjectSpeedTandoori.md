@@ -1,6 +1,6 @@
 ---
 title: Stage | Speed Tandoori
-publishDate: 2024-03-01 00:00:00
+publishDate: 2024-03-04 00:00:00
 img: /assets/aLaUne/speedtandoori.png
 img_alt: Image d'accueil du site Speed Tandoori montrant des spécialités indiennes
 description: |

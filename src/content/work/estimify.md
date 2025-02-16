@@ -1,17 +1,18 @@
 ---
 title: Estimify
-publishDate: 2024-03-06 00:00:00
+publishDate: 2024-03-05 00:00:00
 img: /assets/aLaUne/estimify.png
 img_alt: Estimify image
 description: |
-  J'ai conçu une application web de génération de devis pour faciliter le processus de création de devis.
+  Page en cours de création.
 tags:
   - Angular
   - Devis
 ---
+
 ## ⚠️ Page en cours de création.
-##
-##
+
+<!-- 
 ## Estimify, une plateforme de création de devis
 
 #### [Testez l'application !](https://estimify.naelbenaissa.fr/)
@@ -43,3 +44,4 @@ Le logiciel permet aux utilisateurs de saisir toutes les informations nécessair
 D'autres projets réalisés avec Angular ont été développés, tels que <a href="/work/gsb">GSB</a> et <a href="/work/pokedex">Pokédex</a>.
 
 En résumé, ce projet démontre mon expertise dans le développement logiciel en utilisant Angular et Webstorm, ainsi que ma capacité à intégrer des librairies ainsi que des API tierces telles que jsPdf pour des fonctionnalités avancées comme la génération de PDF ou encore RestCountries permettant d'afficher tout les pays dans le formulaire.
+-->

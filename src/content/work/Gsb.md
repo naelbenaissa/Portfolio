@@ -1,6 +1,6 @@
 ---
 title: GSB
-publishDate: 2024-03-05 00:00:00
+publishDate: 2024-03-06 00:00:00
 img: /assets/aLaUne/gsb.jpg
 img_alt: Image de la page d'accueil de GSB Frais.
 description: |
