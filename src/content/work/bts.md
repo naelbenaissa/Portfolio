@@ -18,7 +18,7 @@ Grâce à ce parcours, j'ai pu acquérir une compréhension approfondie
 des concepts fondamentaux de la sécurité informatique, notamment en ce qui concerne la protection des systèmes
 d'information, la détection des menaces et la gestion des incidents. Les enseignements pratiques et les études de cas
 proposés dans le cadre du MOOC m'ont permis d'appliquer ces connaissances à des situations réelles, me préparant ainsi à
-relever les défis complexes liés à la sécurité des données et des réseaux.
+relever les défis liés à la sécurité des données et des réseaux.
 
 En outre, la certification obtenue à l'issue
 de ce parcours atteste de ma capacité à mettre en œuvre des pratiques exemplaires en matière de cybersécurité,
@@ -40,7 +40,7 @@ conviviales et sa flexibilité, ISPCONFIG m'a permis de déployer mes projets de
 fournissant un environnement de développement sécurisé et fiable. 
 
 Cette expérience m'a non seulement familiarisé avec
-les aspects techniques du déploiement web, mais elle m'a également permis de développer des compétences précieuses en
+les aspects techniques du déploiement web, mais elle m'a également permis de développer des compétences en
 administration système et en gestion des infrastructures informatiques.
 
 ### SCRUM
@@ -57,7 +57,7 @@ utilisant des outils tels que les tableaux et les burndown charts, nous avons pu
 progression du projet et ajuster notre travail en fonction des besoins changeants du client.
 
 Grâce à cette expérience,
-j'ai développé des compétences essentielles en gestion de projet et en travail d'équipe, tout en comprenant l'importance
+j'ai développé des compétences en gestion de projet et en travail d'équipe, tout en comprenant l'importance
 de la flexibilité et de l'itération dans le processus de développement logiciel.
 
 ### CENTRECALL

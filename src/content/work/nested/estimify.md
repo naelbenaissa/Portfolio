@@ -19,7 +19,7 @@ tags:
 L'élaboration d'une application web dédiée à la génération de devis performante a aboutit, utilisant Angular au sein de l'environnement de développement WebStorm de JetBrains. Cette application est dotée de fonctionnalités avancées telles que la génération de fichiers PDF, la possibilité d'impression, ainsi qu'une multitude de fonctionnalités de personnalisation.
 
 Le logiciel de devis que j'ai développé vise à simplifier le processus de création, de gestion et de génération de devis pour les utilisateurs. En utilisant le langage de programmation Typescript et l'environnement de développement de WebStorm, j'ai créé une application web robuste et conviviale.
-#### <a href="https://github.com/nbena69/Estimify" target="blank">Code <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="nbena69" height="30" width="40"/></a>
+#### <a href="https://github.com/naelbenaissa/Estimify" target="blank">Code <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="naelbenaissa" height="30" width="40"/></a>
 
 ### Interface Utilisateur Intuitive
 L'interface utilisateur de devis offre une expérience conviviale, permettant aux utilisateurs de saisir facilement les données relatives au client, au fournisseur et aux articles concernés par le devis. Un CSS personnalisée a été utilisé ainsi que Bootstrap pour créer une interface moderne et esthétiquement plaisante.

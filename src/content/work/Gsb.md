@@ -13,10 +13,14 @@ tags:
 
 ## GSB, plus qu'un service
 
-> GSB est une plateforme web complète qui facilite la gestion centralisée et efficace des données médicales numériques,
-> répondant aux besoins spécifiques des professionnels de la santé.
+> GSB est une application Full-Stack conçue pour optimiser la gestion des données médicales numériques, offrant une
+> solution centralisée et efficace adaptée aux besoins des professionnels de la santé.
 
 #### [Testez l'application !](https://gsb.naelbenaissa.fr/)
+
+Identifiant de test : "Villechalane", mot de passe : "secret"
+
+identifiant en mode admin : "Andre", mot de passe : "secret"
 
 ### Une interface intuitive
 
@@ -29,7 +33,7 @@ manière réfléchie, facilitant ainsi l'accès aux fonctionnalités principales
 
 En combinant l'esthétique visuelle avec la convivialité de Bootstrap, la page GSB offre aux utilisateurs une expérience
 moderne et agréable,
-favorisant ainsi une utilisation optimale de toutes les fonctionnalités proposées.
+favorisant ainsi une utilisation de toutes les fonctionnalités proposées.
 
 ![Image de la page de connexion](/assets/gsb/gsb-home-connect.png)
 
@@ -42,6 +46,8 @@ favorisant ainsi une utilisation optimale de toutes les fonctionnalités propos�
 - Utilisation de Bootstrap pour le style et la mise en forme.
 
 #### [Testez l'application Backend !](https://gsbcore.naelbenaissa.fr/)
+
+Identifiant de test : "Villechalane", mot de passe : "secret"
 
 #### Frontend Angular :
 
@@ -86,7 +92,7 @@ d'effectuer des modifications sur les activités, de rechercher des données ave
 jour les informations de l'utilisateur.
 
 Cette gamme de fonctionnalités offre aux utilisateurs une expérience complète en
-leur permettant de saisir, modifier et supprimer efficacement les données relatives aux frais, d'effectuer des
+leur permettant de saisir, modifier et supprimer les données relatives aux frais, d'effectuer des
 recherches ciblées pour obtenir des résultats précis, et de mettre à jour leurs informations personnelles en toute
 simplicité.
 
