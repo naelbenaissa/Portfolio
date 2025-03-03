@@ -1,6 +1,6 @@
 ---
 title: Estimify
-publishDate: 2024-03-05 00:00:00
+publishDate: 2024-03-04 00:00:00
 img: /assets/aLaUne/estimify.png
 img_alt: Estimify image
 description: |
@@ -10,10 +10,9 @@ tags:
   - Devis
 ---
 
-## ⚠️ Page en cours de création.
-
-<!-- 
 ## Estimify, une plateforme de création de devis
+
+Cette application n'est pas fini
 
 #### [Testez l'application !](https://estimify.naelbenaissa.fr/)
 
