@@ -1,41 +1,42 @@
-# Portfolio
+# Portfolio  
 
-Bienvenue sur mon portfolio en ligne ! Ce repository contient une sélection de mes projets, expériences et compétences. Je suis Na'el Benaïssa, un passionné de développement, et je suis ravi de partager mon travail avec vous.
+Welcome to my online portfolio! This repository contains a selection of my projects, experiences, and skills. I am Na'el Benaïssa, a passionate developer, and I am excited to share my work with you.  
 
-## À propos de moi
+## About Me  
 
-Je suis un étudiant passionné de développement de logiciels et de sites web. Mon objectif est de poursuivre une carrière dynamique dans le domaine de la technologie, en contribuant à des projets innovants et en continuant à apprendre et à grandir en tant que développeur.
+I am a student passionate about software and web development. My goal is to pursue a dynamic career in the technology field, contributing to innovative projects while continuously learning and growing as a developer.  
 
-Au fil des années, j'ai acquis de l'expérience dans des domaines variés, tels que le développement web, la programmation, la gestion de projets et l'optimisation des performances. J'ai également eu la chance de travailler sur une gamme de projets passionnants, allant de la création de sites web dynamiques à la conception de logiciels robustes.
+Over the years, I have gained experience in various fields, such as web development, programming, project management, and performance optimization. I have also had the opportunity to work on a range of exciting projects, from creating dynamic websites to designing robust software solutions.  
 
-Je suis passionné par l'apprentissage continu, l'exploration de nouvelles technologies et la résolution de problèmes complexes. Mon objectif est de contribuer de manière significative à l'industrie du développement et de fournir des solutions innovantes aux défis technologiques du monde d'aujourd'hui.
+I am passionate about continuous learning, exploring new technologies, and solving complex problems. My objective is to make a meaningful contribution to the development industry and provide innovative solutions to today's technological challenges.  
 
-## Projets
+## Projects  
 
-Voici quelques-uns des projets notables de mon portfolio :
+Here are some notable projects from my portfolio:  
 
-1. **Speed Tandoori**
-   - Description : Speed Tandoori apporte la joie aux amateurs de cuisine indienne. L’interface intuitive du site permet de commander directement les spécialités indiennes et de se faire livrer grâce à WooCommerce, mettant en avant la praticité pour les clients. De plus, l’optimisation avec Yoast SEO assure une visibilité maximale sur le web.
-   - Lien vers le projet en direct : [Speed Tandoori](https://www.speed-tandoori.fr)
+1. **Speed Tandoori**  
+   - Description: Speed Tandoori brings joy to Indian cuisine lovers. The website's intuitive interface allows customers to order Indian specialties directly and have them delivered thanks to WooCommerce, enhancing convenience for users. Additionally, optimization with Yoast SEO ensures maximum online visibility.  
+   - Live Project Link: [Speed Tandoori](https://www.speed-tandoori.fr)  
 
-2. **GSB Frais**
-   - Description : GSBFrais, également connu sous le nom de GSB, est un projet informatique personnel qui représente le laboratoire Galaxy Swiss Bourdin (GSB). Il a été créé en utilisant le framework Laravel pour faciliter la gestion des frais professionnels.
-   - Lien vers le code source : [Lien GitHub](https://github.com/nbena69/ProjetGsbFrais)
+2. **GSB Frais**  
+   - Description: GSBFrais, also known as GSB, is a personal IT project representing the Galaxy Swiss Bourdin (GSB) laboratory. It was developed using the Laravel framework to simplify the management of professional expenses.  
+   - Source Code Link: [GitHub Link](https://github.com/nbena69/ProjetGsbFrais)  
 
-N'hésitez pas à explorer davantage de projets dans les répertoires de ce portfolio.
+Feel free to explore more projects in this portfolio's repositories.  
 
-## Compétences
+## Skills  
 
-- PHP Laravel
-- C#
-- Angular
-- Java
-- Polyvalence
+- PHP Laravel  
+- C#  
+- Angular  
+- Java  
+- Versatility  
 
-## Contact
+## Contact  
 
-Si vous souhaitez me contacter pour discuter de projets, opportunités ou simplement pour discuter, n'hésitez pas à me joindre par e-mail à [naelbenaissapro@gmail.com](mailto:naelbenaissapro@gmail.com) ou via [mon profil LinkedIn](https://www.linkedin.com/in/nael-benaissa/) pour rester en contact.
+If you would like to get in touch to discuss projects, opportunities, or simply have a chat, feel free to contact me via email at [naelbenaissapro@gmail.com](mailto:naelbenaissapro@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/nael-benaissa/) to stay in touch.  
 
-Je vous remercie de visiter mon portfolio et j'espère que vous trouverez mon travail intéressant. N'hésitez pas à explorer les projets et à me contacter si vous avez des questions ou des suggestions.
+Thank you for visiting my portfolio! I hope you find my work interesting. Feel free to explore my projects and reach out if you have any questions or suggestions.  
 
 **Na'el Benaïssa**
+
