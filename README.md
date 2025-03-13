@@ -4,9 +4,9 @@ Welcome to my online portfolio! This repository contains a selection of my proje
 
 ## About Me  
 
-I am a student passionate about software and web development. My goal is to pursue a dynamic career in the technology field, contributing to innovative projects while continuously learning and growing as a developer.  
+I am a student passionate about mobile development and artificial intelligence. My goal is to pursue a dynamic career in the technology field, contributing to innovative projects while continuously learning and growing as a developer.  
 
-Over the years, I have gained experience in various fields, such as web development, programming, project management, and performance optimization. I have also had the opportunity to work on a range of exciting projects, from creating dynamic websites to designing robust software solutions.  
+Over the years, I have gained experience in various fields, such as mobile development, artificial intelligence, programming, project management, and performance optimization. I have also had the opportunity to work on a range of exciting projects, from creating AI-powered applications to designing robust software solutions.  
 
 I am passionate about continuous learning, exploring new technologies, and solving complex problems. My objective is to make a meaningful contribution to the development industry and provide innovative solutions to today's technological challenges.  
 
@@ -14,23 +14,25 @@ I am passionate about continuous learning, exploring new technologies, and solvi
 
 Here are some notable projects from my portfolio:  
 
-1. **Speed Tandoori**  
-   - Description: Speed Tandoori brings joy to Indian cuisine lovers. The website's intuitive interface allows customers to order Indian specialties directly and have them delivered thanks to WooCommerce, enhancing convenience for users. Additionally, optimization with Yoast SEO ensures maximum online visibility.  
-   - Live Project Link: [Speed Tandoori](https://www.speed-tandoori.fr)  
+1. **LeafGuard**  
+   - Description: The main goal of the LeafGuard project is to develop a mobile application that assists in plant care by integrating artificial intelligence capable of diagnosing plant diseases from a simple photo. The application aims to provide an intuitive and accessible experience for gardening enthusiasts by offering tailored and personalized advice.  
+   - Live Project Link: [LeafGuard](https://naelbenaissa.fr/work/nested/leafguard/)  
+   - Source Code Link: [GitHub Link](https://github.com/naelbenaissa/leafguard)  
 
-2. **GSB Frais**  
-   - Description: GSBFrais, also known as GSB, is a personal IT project representing the Galaxy Swiss Bourdin (GSB) laboratory. It was developed using the Laravel framework to simplify the management of professional expenses.  
-   - Source Code Link: [GitHub Link](https://github.com/nbena69/ProjetGsbFrais)  
+2. **GSB**  
+   - Description: GSB is a personal IT project representing the Galaxy Swiss Bourdin (GSB) laboratory. It was developed using the Laravel framework to simplify the management of professional expenses.  
+   - Source Code Link: [GitHub Link](https://github.com/naelbenaissa/GSB)  
 
 Feel free to explore more projects in this portfolio's repositories.  
 
 ## Skills  
 
+- Flutter
+- Python AI
 - PHP Laravel  
 - C#  
 - Angular  
 - Java  
-- Versatility  
 
 ## Contact  
 
