@@ -94,7 +94,9 @@ spécialisées en traitement d'images et apprentissage automatique :
 
 ![Image paramètre IA](/assets/leafguard/ia_params.png)
 
-L'API est hébergée sur Railway et son code source est accessible sur GitHub.
+L'API est hébergée sur Google Cloud via un conteneur Docker et son code source est accessible sur GitHub.
+
+Vous pouvez tester l'IA à cette adresse : [LeafGuard AI](https://leafguardai.naelbenaissa.fr/)
 
 ### Backend et gestion des données
 
@@ -163,3 +165,4 @@ IA : [IA LeafGuard](https://github.com/naelbenaissa/IA_LeafGuard)
 
 LeafGuard est conçu pour faciliter la gestion et le soin des plantes, en offrant un outil intuitif et puissant basé sur
 l'intelligence artificielle.
+
