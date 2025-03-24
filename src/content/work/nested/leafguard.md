@@ -92,11 +92,26 @@ spécialisées en traitement d'images et apprentissage automatique :
 - **FastAPI** : Framework permettant de transformer le modèle en API exploitable par l'application Flutter.
 - **Keras** : Utilisé pour la conception et l'optimisation du réseau de neurones.
 
-![Image paramètre IA](/assets/leafguard/ia_params.png)
-
 L'API est hébergée sur Google Cloud via un conteneur Docker et son code source est accessible sur GitHub.
 
+#### Performances du modèle
+
+##### 1️⃣ Graphique de précision et de perte
+Ce graphique illustre l'évolution des performances du modèle au fil des époques :
+- **À gauche** : L'évolution de la précision en entraînement et validation. Le modèle atteint une précision optimale à l’époque 28.
+- **À droite** : La diminution progressive des pertes, indiquant une amélioration de l’apprentissage sans sur-ajustement notable.
+
+![Graphique de précision et de perte](/assets/leafguard/graphique_precision_et_perte.png)
+
+##### 2️⃣ Matrice de confusion
+Cette matrice met en évidence les performances de classification du modèle sur différentes maladies et plantes saines.
+- Les valeurs diagonales montrent les bonnes prédictions.
+- Les erreurs sont visibles dans les cases hors diagonale, indiquant les classes nécessitant potentiellement des améliorations.
+
+![Matrice de confusion](/assets/leafguard/matrice_confusion.png)
+
 Vous pouvez tester l'IA à cette adresse : [LeafGuard AI](https://leafguardai.naelbenaissa.fr/)
+
 
 ### Backend et gestion des données
 
