@@ -2,14 +2,15 @@
 title: LeafGuard
 publishDate: 2024-03-06 00:00:00
 img: /assets/aLaUne/leafguard.png
-img_alt: LeafGuard image
+img\_alt: LeafGuard image
 description: |
   LeafGuard est une application dédiée à l’analyse et à la gestion des plantes.
 tags:
   - Flutter
   - Python
-  - SupaBase
+  - Supabase
   - Intelligence Artificielle
+
 ---
 
 > LeafGuard - Application d'Analyse et de Gestion des Plantes
@@ -22,34 +23,39 @@ documentation des plantes.
 
 ### Fonctionnalités principales
 
-- **Analyse des maladies** : L'utilisateur peut prendre une photo d'une plante ou choisir une image existante afin
+* **Analyse des maladies** : L'utilisateur peut prendre une photo d'une plante ou choisir une image existante afin
   d'obtenir une identification de la maladie ou une confirmation que la plante est en bonne santé. L'intelligence
   artificielle traite l'image et fournit un retour détaillé sur la pathologie éventuelle ainsi que les traitements
   possibles.
 
-- **Système de favoris** : Les utilisateurs peuvent enregistrer leurs analyses et plantes préférées pour un accès
+* **Système de favoris** : Les utilisateurs peuvent enregistrer leurs analyses et plantes préférées pour un accès
   et un suivi rapide.
 
-- **Gestion des tâches et soins** : L'application propose d'ajouter automatiquement des soins spécifiques en fonction du
+* **Gestion des tâches et soins** : L'application propose d'ajouter automatiquement des soins spécifiques en fonction du
   diagnostic obtenu. Les tâches sont intégrées à un calendrier et peuvent être modifiées ou ajoutées manuellement par
   l'utilisateur.
 
-- **Base de données des plantes** : Une bibliothèque d'informations sur plus de 300 000 plantes est intégrée grâce à l'
+* **Base de données des plantes** : Une bibliothèque d'informations sur plus de 300 000 plantes est intégrée grâce à l'
   API Trefle. Chaque plante dispose d'une fiche détaillée contenant ses caractéristiques. Un système de favoris permet
-  d'enregistrer les plantes les plus
-  consultées.
+  d'enregistrer les plantes.
 
-- **Filtres de recherche** : Les utilisateurs peuvent filtrer leurs analyses et favoris en fonction de plusieurs
+* **Filtres de recherche** : Les utilisateurs peuvent filtrer leurs analyses et favoris en fonction de plusieurs
   critères pour un accès rapide et efficace aux informations.
 
-- **Notifications et rappels** : Un système de notification intégré rappelle à l'utilisateur les soins à effectuer en
+* **Notifications et rappels** : Un système de notification intégré rappelle à l'utilisateur les soins à effectuer en
   fonction des tâches enregistrées dans le calendrier.
 
-- **Thèmes personnalisables** : L'application propose un mode clair et un mode sombre pour s'adapter aux préférences des
+* **Thèmes personnalisables** : L'application propose un mode clair et un mode sombre pour s'adapter aux préférences des
   utilisateurs.
 
-- **Tutoriel interactif** : Un guide est proposé lors du premier lancement de l'application afin d'aider
+* **Tutoriel interactif** : Un guide est proposé lors du premier lancement de l'application afin d'aider
   l'utilisateur à comprendre toutes les fonctionnalités.
+
+## Tester l'IA en ligne
+
+Vous pouvez essayer l'intelligence artificielle de LeafGuard directement via une interface web :
+
+<a href="https://leafguardai.naelbenaissa.fr/" target="_blank">Accéder à LeafGuard AI</a>
 
 ---
 
@@ -78,49 +84,83 @@ dependencies:
   introduction_screen: ^3.1.17
   cached_network_image: ^3.4.1
   provider: ^6.1.2
-  flutter_local_notifications: ^18.0.1
+
+  flutter_local_notifications: ^19.2.1
+  timezone: ^0.10.1
+  permission_handler: ^12.0.0+1
+
+  shared_preferences: any
+  flutter_svg: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.6
+  mocktail: ^1.0.4
+  build_runner: ^2.4.15
+  flutter_lints: ^4.0.0
+  http: any
+  flutter_launcher_icons: ^0.14.3
 ```
+
+## Tests
+
+Le projet LeafGuard intègre une suite de tests automatisés pour assurer la qualité et la robustesse de l'application.  
+Les tests couvrent principalement :
+
+- Les tests unitaires des services et des modèles métier.
+- Les tests widget pour valider le rendu des interfaces utilisateur.
+- Les tests d’intégration pour simuler les flux complets, notamment l’analyse d’image et la navigation.
+
+La stratégie de tests utilise les packages `flutter_test`, `mockito` et `mocktail` pour les mocks et la simulation des dépendances.
+
+Voici un exemple de test unitaire asynchrone qui vérifie que la méthode predictDisease retourne bien une Map contenant la réponse de l’IA après une simulation de requête HTTP.
+![Test sur la réponse de l'IA](/assets/leafguard/test_flutter.png)
+
 
 ### Intelligence Artificielle
 
 L'intelligence artificielle de LeafGuard a été développée en Python 3.9.13. Le modèle repose sur des bibliothèques
 spécialisées en traitement d'images et apprentissage automatique :
 
-- **TensorFlow** : Utilisé pour la création et l'entraînement du modèle de deep learning.
-- **NumPy** : Employé pour la gestion des données et des matrices utilisées dans les calculs du modèle.
-- **OpenCV** : Utilisé pour le traitement et la pré-analyse des images avant leur passage dans le modèle.
-- **FastAPI** : Framework permettant de transformer le modèle en API exploitable par l'application Flutter.
-- **Keras** : Utilisé pour la conception et l'optimisation du réseau de neurones.
+* **TensorFlow** : Utilisé pour la création et l'entraînement du modèle de deep learning.
+* **NumPy** : Employé pour la gestion des données et des matrices utilisées dans les calculs du modèle.
+* **OpenCV** : Utilisé pour le traitement et la pré-analyse des images avant leur passage dans le modèle.
+* **FastAPI** : Framework permettant de transformer le modèle en API exploitable par l'application Flutter.
+* **Keras** : Utilisé pour la conception et l'optimisation du réseau de neurones.
 
-L'API est hébergée sur Google Cloud via un conteneur Docker et son code source est accessible sur GitHub.
+L'API est hébergée sur Google Cloud via un conteneur Docker et son code source est accessible sur [GitHub](https://github.com/naelbenaissa/IA_LeafGuard).
 
 #### Performances du modèle
 
 ##### 1️⃣ Graphique de précision et de perte
+
 Ce graphique illustre l'évolution des performances du modèle au fil des époques :
-- **À gauche** : L'évolution de la précision en entraînement et validation. Le modèle atteint une précision optimale à l’époque 28.
-- **À droite** : La diminution progressive des pertes, indiquant une amélioration de l’apprentissage sans sur-ajustement notable.
+
+* **À gauche** : L'évolution de la précision en entraînement et validation. Le modèle atteint une précision optimale à l’époque 28.
+* **À droite** : La diminution progressive des pertes, indiquant une amélioration de l’apprentissage sans sur-ajustement notable.
 
 ![Graphique de précision et de perte](/assets/leafguard/graphique_precision_et_perte.png)
 
 ##### 2️⃣ Matrice de confusion
+
 Cette matrice met en évidence les performances de classification du modèle sur différentes maladies et plantes saines.
-- Les valeurs diagonales montrent les bonnes prédictions.
-- Les erreurs sont visibles dans les cases hors diagonale, indiquant les classes nécessitant potentiellement des améliorations.
+
+* Les valeurs diagonales montrent les bonnes prédictions.
+* Les erreurs sont visibles dans les cases hors diagonale, indiquant les classes nécessitant potentiellement des améliorations.
 
 ![Matrice de confusion](/assets/leafguard/matrice_confusion.png)
 
 Vous pouvez tester l'IA à cette adresse : [LeafGuard AI](https://leafguardai.naelbenaissa.fr/)
-
 
 ### Backend et gestion des données
 
 ![Image Supabase](/assets/leafguard/supabase-leafguard.png)
 L'application utilise Supabase pour :
 
-- L'authentification des utilisateurs
-- Le stockage et la gestion des analyses effectuées
-- La gestion des favoris et des tâches planifiées
+* L'authentification des utilisateurs
+* Le stockage et la gestion des analyses effectuées
+* La gestion des favoris et des tâches planifiées
 
 ---
 
@@ -161,10 +201,10 @@ uvicorn main:app --reload
 
 ## Prochaines améliorations
 
-- Amélioration du modèle d'intelligence artificielle pour une meilleure précision des diagnostics
-- Ajout de nouvelles maladies et traitements dans la base de données
-- Intégration d'un support multilingue pour une meilleur accessibilité
-- Possibilité de partager les diagnostics avec d'autres utilisateurs
+* Amélioration du modèle d'intelligence artificielle pour une meilleure précision des diagnostics
+* Ajout de nouvelles maladies et traitements dans la base de données
+* Possibilité de géolocaliser l'utilisateur et de prendre en compte les conditions climatiques locales afin d’adapter les soins en conséquence.- Intégration d'un support multilingue pour une meilleur accessibilité
+* Possibilité de partager les diagnostics avec d'autres utilisateurs
 
 ---
 
@@ -178,6 +218,14 @@ IA : [IA LeafGuard](https://github.com/naelbenaissa/IA_LeafGuard)
 
 ---
 
+## Documentation technique
+
+Vous pouvez consulter les documents réalisés dans le cadre de ce projet académique :
+
+* [📄 Documentation technique (PDF)](/assets/leafguard/documentation_leafguard.pdf)
+* [📝 Rapport de projet (PDF)](/assets/leafguard/rapport_leafguard.pdf)
+
+---
+
 LeafGuard est conçu pour faciliter la gestion et le soin des plantes, en offrant un outil intuitif et puissant basé sur
 l'intelligence artificielle.
-
