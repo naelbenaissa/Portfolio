@@ -51,12 +51,6 @@ documentation des plantes.
 * **Tutoriel interactif** : Un guide est proposé lors du premier lancement de l'application afin d'aider
   l'utilisateur à comprendre toutes les fonctionnalités.
 
-## Tester l'IA en ligne
-
-Vous pouvez essayer l'intelligence artificielle de LeafGuard directement via une interface web :
-
-<a href="https://leafguardai.naelbenaissa.fr/" target="_blank">Accéder à LeafGuard AI</a>
-
 ---
 
 ## Technologies utilisées
